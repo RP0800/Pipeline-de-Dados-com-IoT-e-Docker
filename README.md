@@ -89,19 +89,6 @@ O dashboard apresenta:
 2. quantidade de leituras por hora;
 3. temperaturas máxima e mínima por dia.
 
-## 6. Comandos Git
 
-```bash
-git init
-git config --global user.name "Seu Nome"
-git config --global user.email "seu.email@exemplo.com"
-git add .
-git commit -m "Projeto inicial: Pipeline de Dados IoT"
-git branch -M main
-git remote add origin URL_DO_SEU_REPOSITORIO
-git push -u origin main
-```
 
-## Observação importante
 
-O enunciado usa `device_id` apenas como exemplo de uma view. O dataset real disponibilizado possui `id`, `room_id/id`, `noted_date`, `temp` e `out/in`; por isso o projeto adapta a primeira view para comparar a média por local (`In`/`Out`) sem inventar uma coluna de dispositivo.
